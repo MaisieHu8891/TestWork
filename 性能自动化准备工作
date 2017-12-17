@@ -1,0 +1,5 @@
+概要：
+语言--Java
+测试数据配置--yaml
+开发工具--IntelliJ IDEA Community Edition  https://www.jetbrains.com/idea/download/ +项目构建工具--gradle
+开源工具--appium 、junit4 、jfreechart 、CommonsCSv 等不限制，能实际用上即可

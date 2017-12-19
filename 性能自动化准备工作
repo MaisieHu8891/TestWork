@@ -1,8 +1,12 @@
 概要：
 语言--Java
 测试数据配置--yaml
-开发工具--IntelliJ IDEA Community Edition  https://www.jetbrains.com/idea/download/ +项目构建工具--gradle
+开发工具--IntelliJ IDEA Community Edition  https://www.jetbrains.com/idea/download/ +项目构建工具gradle--
 开源工具--appium 、junit4 、jfreechart 、CommonsCSv、httpclient 等不限制，能实际用上即可
+
+http://mvnrepository.com
+https://gradle.org
+http://blog.csdn.net/deadgrape/article/details/50833535
 
 测试目标：
 获得特定测试场景下的性能指标--内存、cpu、响应时间、FPS、流量、电量
@@ -11,5 +15,10 @@
 
 代码结构：
 
-代码管理--gitlab or git
+代码管理--gitlab/git
+
+
+
+
+mac gradle home /usr/local/Cellar/gradle/4.0/libexec/
 

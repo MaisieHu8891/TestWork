@@ -1,16 +1,34 @@
+性能测试现状问题:
+粒度不够细，出现问题反复排查
+场景不全，没有说服力
+指标不全，仅内存+cpu
+
+较完善的Android性能测试方法：
+内存、
+cpu、
+响应时间、
+FPS、
+流量、
+电量
+H5、
+
+
 概要：
 语言--Java
-测试数据配置--yaml
-开发工具--IntelliJ IDEA Community Edition  https://www.jetbrains.com/idea/download/ +项目构建工具gradle--
+测试数据配置--yaml   
+开发工具--IntelliJ IDEA Community Edition  https://www.jetbrains.com/idea/download/ +项目构建工具gradle
 开源工具--appium 、junit4 、jfreechart 、CommonsCSv、httpclient 等不限制，能实际用上即可
 
-http://mvnrepository.com
-https://gradle.org
-http://blog.csdn.net/deadgrape/article/details/50833535
+yaml:
+http://www.yaml.org/
+https://www.cnblogs.com/felixzh/p/6003370.html
 
-测试目标：
-获得特定测试场景下的性能指标--内存、cpu、响应时间、FPS、流量、电量
-性能指标获取方法：
+https://gradle.org
+http://mvnrepository.com
+
+appium例子：
+http://blog.csdn.net/deadgrape/article/details/50833535
+https://github.com/appium/sample-code/tree/master/sample-code/examples/java
 
 
 代码结构：
@@ -18,7 +36,12 @@ http://blog.csdn.net/deadgrape/article/details/50833535
 代码管理--gitlab/git
 
 
-
+要做的事情：
+1、liunx部署环境
+2、特定的Android机型
+3、补充获取性能指标的代码
+4、编写合适的测试场景代码
+5、测试报告/持续集成
 
 mac gradle home /usr/local/Cellar/gradle/4.0/libexec/
 
